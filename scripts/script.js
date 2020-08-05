@@ -80,10 +80,6 @@ const setup = () => {
     shuffle(arr);
   }, 600);
   timerCountUp();
-/** 
- * It was not possible to run it before because all JavaScript code which deals with DOM elements like the HTML file has to be executed only after the DOM is loaded.
- * It means that everything which is JavaScript should be located at the end of the code 
- */
 alert('it runs'); 
 }
 
